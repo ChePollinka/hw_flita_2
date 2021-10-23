@@ -1,13 +1,14 @@
 # hw_flita_2
 my second homework - checking a graph against a tree 
 
-For the program to work, you need to create a file with the name graph and enter a graph in it in the format x--y, where x and y are adjacent vertices.
+Для работы программы необходимо создать файл graph в котором граф будет записан в формате х--у, где х и у - две смежные вершины. Если вершина ни с чем не смежно, то записываем х--0.
+Для запуска программы надо скомпилировать файл и создать исполняемый (gcc second_hw.c), исполнить программу (./second_hw).
+Команда для запуска визуализации dot -Tpng Dotfile.gv -oDotfile.png
 
-
-
+```c
 // ввести граф в формате списка смежных между собой вершин и проверить, является ли данный граф деревом
 // визуализировать граф через что-нибудь
-```c
+
 #include <stdio.h>
 #include <stdbool.h>
 #include <stdlib.h>
